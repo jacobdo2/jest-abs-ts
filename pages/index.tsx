@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Hello } from 'components'
 
 export const Home = (): JSX.Element => (
   <div className="container">
     <Head>
+      <Hello />
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
